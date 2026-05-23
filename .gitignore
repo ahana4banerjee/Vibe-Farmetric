@@ -1,0 +1,24 @@
+# .gitignore
+
+# Virtual Environment
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Datasets and Models (Good practice to avoid pushing heavy files to GitHub)
+data/*
+!data/.keep
+models/*
+!models/.keep
+
+# OS generated files
+.DS_Store
+Thumbs.db
