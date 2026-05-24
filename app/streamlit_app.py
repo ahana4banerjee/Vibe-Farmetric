@@ -7,7 +7,7 @@ from sustainability import SustainabilityEngine
 # PAGE CONFIGURATION
 # ==========================================
 st.set_page_config(
-    page_title="Vibe-FrameTric | Agritech AI",
+    page_title="Vibe-Farmetric | Agritech AI",
     page_icon="🌱",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -21,7 +21,7 @@ model, preprocessor, label_encoder, feature_columns = load_ml_assets()
 # ==========================================
 # UI: HEADER & DESCRIPTION
 # ==========================================
-st.title("🌱 Vibe-FrameTric")
+st.title("🌱 Vibe-Farmetric")
 st.subheader("AI-Assisted Sustainable Fertilizer Intelligence System")
 st.markdown("""
 This dashboard provides precision fertilizer recommendations while actively monitoring for 
